@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.webgl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav {
+    color: white;
+    z-index: 2;
+    position: relative;
+    padding: 2rem 4rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    position: relative;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: default;
+}
+
+.nav-ulist {
+    font-size: 1.1rem;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-list {
+    color: white;
+    list-style-type: none;
+}
+
+.spin-title {
+    position: absolute;
+    color: white;
+    font-size: 2.5rem;
+    z-index: 2;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+}
