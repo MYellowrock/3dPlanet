@@ -126,6 +126,8 @@ function Planet() {
       </nav>
       <h1 className="spin-title">Give it a spin</h1>
     </div>
+
+    
   )
 }
 
